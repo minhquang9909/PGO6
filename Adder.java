@@ -5,6 +5,6 @@ public class Adder {
         return a+b;
     }
     public BigDecimal add(BigDecimal a, BigDecimal b) {
-        return a + b ;
+        return a.add(b);
     }
 }
